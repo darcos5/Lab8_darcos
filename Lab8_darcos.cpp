@@ -12,7 +12,17 @@ using namespace std;
 
 int main()
 {
-	// add your code here
+	// declare an int varibale on the stack named stackInt
+    int stackInt = 1;
+    //dynamically allocate an int variable on the heap using the new keyword 
+    //and name the pointer varible heapInt
+    int *heapInt = new int;
+    *heapInt = 2;
+    //create a pointer to the stack varibale named ptrToStack
+    
+
+
+
 
 	return 0;
 }
