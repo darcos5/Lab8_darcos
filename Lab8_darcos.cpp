@@ -19,7 +19,11 @@ int main()
     int *heapInt = new int;
     *heapInt = 2;
     //create a pointer to the stack varibale named ptrToStack
-    
+    int *ptrToStack = &stackInt;
+    //create a refrence to the stack variable named reftoStack
+    int& refToStack = stackInt;
+
+
 
 
 
