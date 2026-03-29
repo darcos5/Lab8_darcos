@@ -5,22 +5,19 @@
  * @brief Demonstrates stack vs heap memory and the use of pointers and references.
  */
 
- //creat a program that manipulates interger varaibles in different memory locations 
- //and access them through pointers and refrences 
 #include<iostream>
 using namespace std;
 
+/**
+ * @brief Entry point for the memory demonstration. Allocates memory on the stack and heap.
+ * @return 0 to indicate success.
+ */
 int main()
 {
-	// declare an int varibale on the stack named stackInt
     int stackInt = 10;
-    //dynamically allocate an int variable on the heap using the new keyword 
-    //and name the pointer varible heapInt
     int *heapInt = new int;
     *heapInt = 20;
-    //create a pointer to the stack varibale named ptrToStack
     int *ptrToStack = &stackInt;
-    //create a refrence to the stack variable named reftoStack
     int& refToStack = stackInt;
 
     //output directions
