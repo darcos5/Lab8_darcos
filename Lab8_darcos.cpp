@@ -23,6 +23,27 @@ int main()
     //create a refrence to the stack variable named reftoStack
     int& refToStack = stackInt;
 
+    //output directions
+    //stack variable 
+    cout << "Stack Variable (stackInt): " << endl;
+    cout << "Value: " << stackInt << endl;
+    cout << " Address: " << ptrToStack << endl;
+
+    //heap variabale    -- double check 
+    cout << "Heap Variable (heapInt): " << endl;
+    cout << "Value: " << heapInt << endl;
+    cout << " Address: " << &heapInt << endl;
+
+    //pointer to stack     -- double check 
+    cout << "Pointer to Stack (ptrToStack): " << endl;
+    cout << "Value Pointed To: " << stackInt << endl;
+    cout << " Address: " << ptrToStack << endl;
+
+    //refrence to stack-- double check 
+    cout << "Refrence to Stack (refToStack): " << endl;
+    cout << "Value Referred To: " << refToStack << endl;
+    cout << " Address: " << ptrToStack << endl;
+
 
 
 
